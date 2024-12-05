@@ -46,7 +46,7 @@ platforms such as Reddit and Facebook. However, these apps don't match any neuro
    - knex
    - express
    - cors
-   - sockets.io for chat messaging
+   - socket.io for chat messaging
    - bcrypt for password hasing
 
 
