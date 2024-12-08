@@ -1,10 +1,10 @@
-import ChatPage from "./pages/ChatPage/ChatPage"
+import HomePage from "./pages/HomePage/HomePage"
 
 function App() {
 
   return (
     <>
-    <ChatPage />
+    <HomePage />
     </>
   )
 }

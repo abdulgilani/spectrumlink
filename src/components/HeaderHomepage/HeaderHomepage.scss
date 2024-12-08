@@ -1,0 +1,39 @@
+@use "../../assets/partials/globals" as *;
+@use "../../assets/partials/colors" as *;
+
+.header{
+    background-color: $blue;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+
+    &__logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 14%;
+    }
+
+    &__icon {
+        height: 3.125rem;
+    }
+
+    &__buttons{
+        display: flex;
+        justify-content: space-between;
+        width: 7%;
+    }
+
+    &__button{
+        background-color: $green;
+        border: none;
+        padding: 0.5rem 0.5rem;
+        border-radius: 40px;
+
+        &--sign-up{
+            color: $blue;
+        }
+    }
+}
