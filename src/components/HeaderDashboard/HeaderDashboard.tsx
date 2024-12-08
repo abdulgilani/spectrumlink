@@ -9,9 +9,9 @@ function HeaderDashboard(){
                 <h1 className="header__title">SpectrumLink</h1>
             </div>
             <div className="header__buttons">
-                <button className="header__button">Friends</button>
-                <button className="header__button">Friend Request</button>
-                <button className="header__button header__button--active">Chat</button>
+                <button className="header__button">Suggestions</button>
+                <button className="header__button">Friend Requests</button>
+                <button className="header__button header__button--active">Friends</button>
                 <button className="header__button header__button--sign-out">Sign Out</button>
             </div>
         </div>

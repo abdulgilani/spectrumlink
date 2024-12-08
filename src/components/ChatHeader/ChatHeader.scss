@@ -1,0 +1,18 @@
+@use "../../assets/partials/globals" as *;
+@use "../../assets/partials/colors" as *;
+
+.chat-header{
+    display: flex;
+    background-color: $green;
+    align-items: center;
+    padding: 1rem 0 1rem 2rem;
+
+    &__profile{
+        width: 6.25rem;
+        border-radius: 50%;
+    }
+
+    &__name{
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,19 @@
+@use "../../assets/partials/globals" as *;
+@use "../../assets/partials/colors" as *;
+
+.chatbody{
+    height: 80vh;
+    padding: 1.25rem;
+
+    > *{
+        margin-bottom: 0.625rem;
+    }
+
+    &__sender{
+        background-color: $grey;
+        width: 18.75rem;
+        padding: 0.625rem;
+        border-radius: 20px;
+        margin-left: auto;
+    }
+}
