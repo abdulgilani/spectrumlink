@@ -2,10 +2,10 @@
 @use "../../assets/partials/colors" as *;
 
 .chatbody{
-    height: 80vh;
+    height: 60vh;
     padding: 1.25rem;
 
-    > *{
+    &__chats{
         margin-bottom: 0.625rem;
     }
 
@@ -15,5 +15,12 @@
         padding: 0.625rem;
         border-radius: 20px;
         margin-left: auto;
+    }
+
+    &__recipient{
+        background-color: $green;
+        width: 18.75rem;
+        padding: 0.625rem;
+        border-radius: 20px;
     }
 }
