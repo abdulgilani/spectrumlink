@@ -1,0 +1,12 @@
+@use "../../assets/partials/globals" as *;
+@use "../../assets/partials/colors" as *;
+
+.back-arrow{
+    background-color: $blue;
+    padding: 1rem;
+
+    &__icon{
+        width: 3.125rem;
+    }
+}
+

@@ -1,11 +1,27 @@
-import SignIn from "./pages/SignIn/SignIn"
+import HomePage from "./pages/HomePage/HomePage";
+import SignIn from "./pages/SignIn/SignIn";
+import Register from "./pages/Register/Register";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 
   return (
-    <>
-    <SignIn />
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route 
+      path="/"
+      element={<HomePage />}
+      />
+      <Route
+      path="/signIn"
+      element={<SignIn />}
+      />
+      <Route 
+      path="/register"
+      element={<Register />}
+      />
+    </Routes>
+    </BrowserRouter>
   )
 }
 
