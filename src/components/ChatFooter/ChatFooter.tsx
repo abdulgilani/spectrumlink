@@ -5,9 +5,13 @@ import './ChatFooter.scss';
 function ChatFooter(){
     const [text, setText] = useState('');
 
+    const handleSubmit = (e: React.ChangeEvent<any>) => {
+        e.preventDefault();
+    }
+
     return(
         <div className="chat-footer">
-            <form className="chat-footer__form">
+            <form className="chat-footer__form" onSubmit={handleSubmit}>
                 <input className="chat-footer__text"
                 type="text"
                 placeholder="Write a message"
