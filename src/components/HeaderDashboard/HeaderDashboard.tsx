@@ -1,5 +1,6 @@
 import icon from "../../assets/images/brain-guru-intellectual-svgrepo-com.svg"
 import "./HeaderDashboard.scss";
+import { Link } from "react-router-dom";
 
 function HeaderDashboard(){
     return(
@@ -9,10 +10,10 @@ function HeaderDashboard(){
                 <h1 className="header__title">SpectrumLink</h1>
             </div>
             <div className="header__buttons">
-                <button className="header__button">Suggestions</button>
-                <button className="header__button">Friend Requests</button>
-                <button className="header__button header__button--active">Friends</button>
-                <button className="header__button header__button--sign-out">Sign Out</button>
+                <Link to="/dashboard"><button className="header__button">Suggestions</button></Link>
+                <Link to="/friendRequest"><button className="header__button">Friend Requests</button></Link>
+                <Link to="/friends"><button className="header__button header__button--active">Friends</button></Link>
+                <Link to="/"><button className="header__button header__button--sign-out">Sign Out</button></Link>
             </div>
         </div>
     );

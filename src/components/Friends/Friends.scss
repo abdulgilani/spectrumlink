@@ -1,0 +1,21 @@
+@use "../../assets/partials/globals" as *;
+@use "../../assets/partials/colors" as *;
+
+.suggestion{
+    &__title{
+        padding: 1rem;
+    }
+   &__lists{
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 0.625rem;
+   }
+
+   &__link{
+    text-decoration: none;
+    color: black;
+   }
+}

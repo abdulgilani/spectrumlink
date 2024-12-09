@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import "./RegisterCard.scss"
+import { Link } from "react-router-dom";
 
 const URL = import.meta.env.VITE_URL;
 
@@ -72,10 +73,8 @@ function RegisterCard(){
                 </select>
                 </div>
 
-
-
                 <div className="register__container">
-                <button className="register__button">Register</button>
+                <Link to="/dashboard"><button className="register__button">Register</button></Link>
                 </div>
             </form>
         </div>

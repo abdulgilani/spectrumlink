@@ -1,4 +1,5 @@
 import "./SignInCard.scss";
+import { Link } from "react-router-dom";
 
 function SignInCard(){
     const handleSubmit = (e: React.ChangeEvent<any>) => {
@@ -20,7 +21,7 @@ function SignInCard(){
                 </div>
 
                 <div className="sign-in__container">
-                <button className="sign-in__button">Sign In</button>
+                <Link to="/dashboard"><button className="sign-in__button">Sign In</button></Link>
                 </div>
             </form>
         </div>

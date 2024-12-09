@@ -1,0 +1,17 @@
+@use "../../assets/partials/globals" as *;
+@use "../../assets/partials/colors" as *;
+
+.member{
+    background-color: $white;
+    border: 1px solid black;
+
+    &__disorders-list{
+        list-style: none;
+        font-size: 0.7rem;
+    }
+
+    &__acceptance{
+        display: flex;
+        justify-content: space-between;
+    }
+}

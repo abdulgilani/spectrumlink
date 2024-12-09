@@ -1,13 +1,13 @@
 import HeaderDashboard from "../../components/HeaderDashboard/HeaderDashboard";
-import SuggestionList from "../../components/Suggestion/SuggestionList";
+import Friends from "../../components/Friends/Friends";
 
-function Dashboard(){
+function FriendsPage(){
     return(
         <>
         <HeaderDashboard />
-        <SuggestionList />
+        <Friends />
         </>
     );
 }
 
-export default Dashboard;
+export default FriendsPage;
