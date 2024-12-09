@@ -30,9 +30,13 @@ function PersonInfo(){
     return(
         <>
         <HeaderDashboard />
+        <div className="person-container">
         <div className="person-info">
             <img className="person-info__image" src={member.photo} alt={member.name} />
             <h2 className="person-info__name">{member.name}</h2>
+            <p className="person-info__occupation">{member.occupation}</p>
+            <p className="person-info__description">{member.description}</p>
+        </div>
         </div>
         </>
     );

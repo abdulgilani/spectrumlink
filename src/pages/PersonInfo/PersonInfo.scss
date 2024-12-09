@@ -1,0 +1,21 @@
+@use "../../assets/partials/globals" as *;
+@use "../../assets/partials/colors" as *;
+
+.person{
+    &-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 88vh;
+    }
+
+    &-info{
+        &__image{
+            width: 12.5rem;
+        }
+
+        &__occupation{
+            text-align: center;
+        }
+    }
+}
