@@ -12,7 +12,7 @@ function ChatHeader(){
     const fetchMember = async () => {
         try{
             const response = await axios.get(
-                `${URL}/suggestion/${chatId}`
+                `${URL}/friends/${chatId}`
             );
             setMember(response.data);
         } catch(error) {
