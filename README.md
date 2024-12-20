@@ -1,5 +1,6 @@
 # About the project
-The project is a social networking platform for neurodivergents having trouble connecting with people to connect with each other. This is the SpectrumLink Client code.
+The project is a social networking platform for neurodivergents having trouble connecting with people to connect with each other. This is the SpectrumLink Client code. The chat 
+functionality is still under construction
 
 # Built with
 The frameworks/libraries and preprocessor utilized in this project are the following:
@@ -37,8 +38,14 @@ use that as your terminal
 
 7. In the terminal window, select the `˅` icon to open the terminal dropdown and click Git Bash.
    
-8. In the terminal, type the following: 
+8. Install node modules by typing the following:
+   `npm i`
+
+9. Now create a `.env` file and enter the following in `VITE_URL` variable:
+   `http://localhost:8080`
+   
+10. In the terminal, type the following: 
    `npm run dev`
 
-9. Now click on the link in the terminal where it says localhost.
+11. Now click on the link in the terminal where it says localhost.
    
