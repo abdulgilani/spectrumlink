@@ -7,7 +7,7 @@ The frameworks/libraries and preprocessor utilized in this project are the follo
 - React.js
 - Node.js (to create REST API)
 - Express.js (to create REST API)
-- axios
+- Axios
 - SASS
 
 # Get Started 
