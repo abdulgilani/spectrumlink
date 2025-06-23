@@ -33,7 +33,7 @@ use that as your terminal
 
 5. Now go to the SpectrumLink API [here](https://github.com/abdulgilani/spectrumlink-api) and follow instructions there.
    
-6. After turning the API on, then go onto the SpectrumLink client code and open the terminal by clicking Terminal
+6. After finishing Step 5, open the terminal by clicking Terminal
    on the menu bar and click New Terminal
 
 7. In the terminal window, select the `˅` icon to open the terminal dropdown and click Git Bash.

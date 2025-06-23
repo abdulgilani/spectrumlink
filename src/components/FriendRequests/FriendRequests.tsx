@@ -35,8 +35,10 @@ function FriendRequest() {
   const acceptFriendRequest = async (member: any) => {
     try{
         await axios.post(`${URL}/friends`, {
+            id: member.id,
             name: member.name,
             email: member.email,
+            password: member.password,
             neurodivergent_disorders: member.neurodivergent_disorders,
             description: member.description,
             occupation: member.occupation,
